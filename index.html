@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+</head>
+<body>
+    <img src="./img/Logo.png" alt="Logo" class="logo">
+    <img src="./img/Muñeco.jpg" alt="Muñeco"class="muñeco">
+    <img src="./img/Rectangle 1.jpg" alt="Rectangle1" class="Rectangle1">
+    <main>
+        <form>
+            <label for="ingresartexto"></label>
+            <Input type="Text" id="ingresartexto" placeholder="Ingrese el texto aqui" checked>
+            <img src="img/Icon.jpg" alt="Icon" id="Icon">
+            <p>Solo letras en minusculas y sin acentos.</p> 
+            <div class="submit">
+            <button type="button" class="submit1" id="encriptar" onclick="codifica()">Encriptar</button>
+            <button type="button" class="submit1" id="desencriptar" onclick="descodifica()">Desencriptar</button>
+            </div>
+        </form>
+        <div class="resultado">
+           <h5 id="codificacion">Ningun mensaje fue encontrado</h5>
+           <br>
+           <h4>Ingresa el texto que desees encriptar o desencriptar</h4>
+        </div>
+        <script src="./Js/Encriptador.js"></script>
+        <script src="./Js/Desencriptador.js"></script>
+    </main>
+</body>
+</html>
