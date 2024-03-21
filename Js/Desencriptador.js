@@ -1,6 +1,6 @@
 
 function descodifica () {
-  var dato = document.getElementById('codificacion');
+  var dato = document.getElementById('ingresartexto');
   var datoencriptado = dato.value;
 
 
@@ -14,7 +14,7 @@ function descodifica () {
  
 
   var datoencriptado1 = datoencriptado.replace(new RegExp(Object.keys(chars).join('|'), 'g'), m => chars[m]);
-  document.getElementById("ingresartexto").innerHTML = datoencriptado1;
+  document.getElementById("codificacion").innerHTML = datoencriptado1;
   dato.value = "";
 
 }
