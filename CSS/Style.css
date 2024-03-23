@@ -54,7 +54,6 @@
         line-height: 150%;
         cursor: pointer;
         border: none;
-        
     }
     
     ::placeholder {
@@ -62,7 +61,6 @@
     }
     
     #Icon {
-        
         width: 16px;
         height: 16px;
     }
@@ -234,7 +232,6 @@
 }
 
 
-
 @media only screen and (max-width: 600px) {
     * {
         position: relative;
@@ -242,7 +239,6 @@
         background: #F3F5FC;
     }
     #ingresartexto {
-      
         width: 100%;
         height: 48px;;
         font-family:'Inter';
@@ -254,11 +250,9 @@
         border: none;
         margin-top: 15%;
         margin-bottom: 45%;
-        
     }
 
     p {
-
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -299,7 +293,6 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    
 }  
 
 #Copiar {
@@ -365,12 +358,10 @@
         cursor: pointer;
         border: none;
         margin-top: 15%;
-        margin-bottom: 45%;
-        
+        margin-bottom: 45%; 
     }
 
     p {
-
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -412,7 +403,6 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    
 }  
 
 #Copiar {
@@ -431,7 +421,6 @@
         margin: auto;
         background: #FFFFFF;
         border-radius: 10px;
-        
     }  
 
     #codificacion {
@@ -447,7 +436,6 @@
     }
 
     #h4 {
-        
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -458,10 +446,4 @@
         text-align: center;
         color: #495057;
         }
-
-
-
-
-
-
 }
